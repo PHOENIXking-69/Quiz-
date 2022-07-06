@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+html{
+    font-size: 62.5%;
+
+}
+.main-div{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items:center;
+    background-color:rgb(147, 252, 231);
+}
+.inner-div{
+    width: 40vw;
+    background-color: lightyellow;
+    padding: 30px 80px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px -7px rgba(0,0,0,0.4);
+}
+.inner-div h2{
+ font-size: 35px;
+ font-weight: 200px;
+ margin: 10px 5px 3px 10px;
+}
+.inner-div li{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 20px;
+    list-style: none;
+}
+input{
+    cursor:pointer;
+}
+#submit, .btn{
+padding: 10px;
+outline: 0;
+font-size: 20px;
+font-weight: 200;
+display: block;
+margin: auto;
+border-radius: 4px;
+}
+#submit:hover{
+    background-color: greenyellow;
+}
+#showScore{
+    background-color:rgb(237, 237, 56);
+    margin-top: 30px;
+    padding: 20ox 30px;
+    box-shadow: 7px 10px 10px -7px rgba(166, 57, 57, 0.4);
+    border-radius: 5px;
+}
+#showScore:hover{
+background-color:lightgray;
+}
+#showScore h3{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+#showScore .btn:hover{
+background-color: greenyellow;
+}
+.scoreArea{
+    display: none;
+}
+
+footer{
+    text-align: center;
+    color: chocolate;
+    background-color: bisque;
+    font-size: 30px;
+    width:100%;
+    box-sizing: inherit;
+}
